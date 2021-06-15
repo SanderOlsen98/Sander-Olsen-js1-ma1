@@ -16,25 +16,44 @@ const cats = [
 // Question 1
 // Create an object called cat
 
-const animal = {
-    type: "cat",
+var cat = {
+    complain: function(){
+        console.log("Meow!");
+    }
 };
 
-console.log(animal.type)
 
-if(animal.type){
-    console.log("Meow!")
-}
-
-
-// Question 2
+// Question 2 and 3
 // Update heading 
 
 const heading = document.querySelector("h3");
 
 heading.innerHTML = `
-    <h3 style="font-size: 2em">Updated Heading </h3>
+    <h3>Updated Heading </h3>
 `
 
 // Question 3
-// change style
+// Update Size
+
+heading.style.fontSize = "2em";
+
+// Question 4
+ heading.classList = "subheading";
+
+ // Question 5
+
+ const paragraphs = document.getElementsByTagName ("p");
+
+ for (i = 0; paragraphs.length > i; i++) {
+     paragraphs[i].style.color = "red";
+ }
+
+ // Question 6
+
+ const resultsContainer = document.getElementsByClassName ("results")[0];
+ resultsContainer.innerHTML = "<p>New paragraph</p>";
+ resultsContainer.style.backgroundColor = "yellow";
+
+ // Question 7
+
+ 
