@@ -56,4 +56,8 @@ heading.style.fontSize = "2em";
 
  // Question 7
 
- 
+function itemLoop(list) {
+    for (item in list) {
+        console.log(list[item].name);
+    }
+}
