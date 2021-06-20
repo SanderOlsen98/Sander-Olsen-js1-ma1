@@ -14,7 +14,6 @@ const cats = [
 
 
 // Question 1
-// Create an object called cat
 
 var cat = {
     complain: function(){
@@ -24,7 +23,6 @@ var cat = {
 
 
 // Question 2 and 3
-// Update heading 
 
 const heading = document.querySelector("h3");
 
@@ -33,7 +31,6 @@ heading.innerHTML = `
 `
 
 // Question 3
-// Update Size
 
 heading.style.fontSize = "2em";
 
@@ -61,3 +58,5 @@ function itemLoop(list) {
         console.log(list[item].name);
     }
 }
+
+// Question 8
